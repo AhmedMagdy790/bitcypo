@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <title>bitcypo</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="layout/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="layout/css/bootstrap.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="layout/css/custom.css">
+</head>
+<body>
+
+    <div class="sidepanel" id="sidepanel">
+        <span class="closebtn">
+            <button href="#" class="btn" onclick="closeMenue()">×</button>
+        </span>
+        <ul class="links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="searvices.html">Searvices</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Start Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                    <div class="col-sm-3">
+                        <a class="navbar-brand" href="#">BitCYPO</a>
+                    </div>
+
+                    <div class="col-sm-5">
+                        <ul class="social-icon">
+                            <li> <a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li> <a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li> <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                            <li> <a href="#"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <ul class="search d-flex align-items-center">
+                            <li><i class="fa-solid fa-user"></i></li>
+                            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                            <li class="bars">
+                                <button type="button" class="btn" id="menu">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start Slider Section -->
+    <div class="banner_main">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carouselslider" class="carousel slide" data-bs-ride="carousel">           
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <figure><img class="d-block w-100" src="layout/images/top_img.png" alt=""></figure>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bluid">
+                                        <h1>Progress<br> Your Bitcoin Money Success</h1>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                        </p>
+                                        <div class="buttons d-flex gap-2">
+                                            <button class="btn read">Read More</button>
+                                            <button class="btn get">Get A Quote</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <figure><img class="d-block w-100" src="layout/images/top_img.png" alt=""></figure>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bluid">
+                                        <h1>Progress<br> Your Bitcoin Money Success</h1>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                        </p>
+                                        <div class="buttons d-flex gap-2">
+                                            <button class="btn read">Read More</button>
+                                            <button class="btn get">Get A Quote</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <figure><img class="d-block w-100" src="layout/images/top_img.png" alt=""></figure>
+                                </div>
+                                <div class="col-md-6 row d-flex">
+                                    <div class="bluid">
+                                        <h1>Progress<br> Your Bitcoin Money Success</h1>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                        </p>
+                                        <div class="buttons d-flex gap-2">
+                                            <button class="btn read">Read More</button>
+                                            <button class="btn get">Get A Quote</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls d-flex justify-content-center gap-2 p-5">
+                        <button class="prev " type="button" data-bs-target="#carouselslider" data-bs-slide="prev">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="next " type="button" data-bs-target="#carouselslider" data-bs-slide="next">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Section -->
+    <!-- Start wallet -->
+    <div class="wallet">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="wallet-card card">
+                        <img class="card-img-top" src="layout/images/clint.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">ONLINE WALLET</h3>
+                            <p class="card-text text-center">It is a long established fact that a reader will be distracted by </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="wallet-card card">
+                        <img class="card-img-top" src="layout/images/clint.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">ONLINE WALLET</h3>
+                            <p class="card-text text-center">It is a long established fact that a reader will be distracted by </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="wallet-card card">
+                        <img class="card-img-top" src="layout/images/clint.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">ONLINE WALLET</h3>
+                            <p class="card-text text-center">It is a long established fact that a reader will be distracted by </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="wallet-card card">
+                        <img class="card-img-top" src="layout/images/clint.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">ONLINE WALLET</h3>
+                            <p class="card-text text-center">It is a long established fact that a reader will be distracted by </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End wallet -->
+    <!-- Start About Us -->
+    <div class="about">
+        <div class="container">
+            <div class="about-border">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-lg-7 ">
+                        <h2>About US</h2>
+                        <p>It is a long established fact that a reader will be distracted bIt is a long established fact that a reader will be distracted by y It is a long established fact that a reader will be distracted by It is a long established fact that a reader will be distracted by</p>
+                        <button class="btn primary">Read More</button>
+                    </div>
+                    <div class="col-sm-12 col-lg-5 p-1 pt-5 p-sm-5 pb-sm-0 px-lg-4 p-lg-0">
+                        <figure><img src="layout/images/about2.png" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Graf -->
+    <div class="graf">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills mb-3 p-lg-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="link-1-tab" data-bs-toggle="pill" data-bs-target="#link-1" type="button" role="tab" aria-controls="link-1-tab" aria-selected="true">Bitcoin(BTC)</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="link-2-tab" data-bs-toggle="pill" data-bs-target="#link-2" type="button" role="tab" aria-controls="link-2-tab" aria-selected="false">Bitcoin Cash(BCH)</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="link-3-tab" data-bs-toggle="pill" data-bs-target="#link-3" type="button" role="tab" aria-controls="link-3-tab" aria-selected="false">Bitcoin Lite(LTC)</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="link-4-tab" data-bs-toggle="pill" data-bs-target="#link-4" type="button" role="tab" aria-controls="link-4-tab" aria-selected="false">Bitcoin Ethereum(ETH)</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="link-5-tab" data-bs-toggle="pill" data-bs-target="#link-5" type="button" role="tab" aria-controls="link-5-tab" aria-selected="false">Bitcoin Ripple(XRP)</button>
+                          </li>
+                      </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="link-1" role="tabpanel" aria-labelledby="link-1-tab" tabindex="0">
+                            <div class="row gap-4">
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graf-images">
+                                <div class="row">
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf1.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf2.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="link-2" role="tabpanel" aria-labelledby="link-2-tab" tabindex="0">
+                            <div class="row gap-4">
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graf-images">
+                                <div class="row">
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf1.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf2.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="link-3" role="tabpanel" aria-labelledby="link-3-tab" tabindex="0">
+                            <div class="row gap-4">
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graf-images">
+                                <div class="row">
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf1.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf2.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="link-4" role="tabpanel" aria-labelledby="link-4-tab" tabindex="0">
+                            <div class="row gap-4">
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graf-images">
+                                <div class="row">
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf1.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf2.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="link-5" role="tabpanel" aria-labelledby="link-5-tab" tabindex="0">
+                            <div class="row gap-4">
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                                <div class=" col-sm-auto">
+                                    <div class="usd">
+                                        <h3>USD 123456.09 <br /> last Price</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graf-images">
+                                <div class="row">
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf1.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 px-4">
+                                        <div class="text d-flex justify-content-between">
+                                            <h2>Total Growth</h2>
+                                            <span>3345254.09</span>
+                                        </div>
+                                        <figure>
+                                            <img src="layout/images/graf2.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Graf -->
+    <!-- Start Testimoial -->
+    <div class="testimonial">
+        <div class="header">
+            <h2>Testimonial</h2>
+        </div>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="container">
+
+                    <div class="carousel-item active">
+                      <div class="row justify-content-center">
+                            <div class="card col-md-4 mb-5 mb-md-0">
+                              <img class="card-image" src="layout/images/clint.jpg" alt="">
+                              <h3>AhmedMagdy</h3>
+                              <span>Bitcoin</span>
+                              <img src="layout/images/icon.png" alt="">
+                            </div>
+                            <div class="text col-md-8">
+                              <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                              <div class="card col-md-4 mb-5 mb-md-0">
+                                <img class="card-image" src="layout/images/clint.jpg" alt="">
+                                <h3>AhmedMagdy</h3>
+                                <span>Bitcoin</span>
+                                <img src="layout/images/icon.png" alt="">
+                              </div>
+                              <div class="text col-md-8">
+                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row justify-content-center">
+                              <div class="card col-md-4 mb-5 mb-md-0">
+                                <img class="card-image" src="layout/images/clint.jpg" alt="">
+                                <h3>AhmedMagdy</h3>
+                                <span>Bitcoin</span>
+                                <img src="layout/images/icon.png" alt="">
+                              </div>
+                              <div class="text col-md-8">
+                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                              </div>
+                        </div>
+                    </div>
+                      
+   
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- End Testimoial -->
+    <!-- Start Work -->
+    <div class="work">
+        <div class="header">
+            <h2>How It Works</h2>
+        </div>
+        <div class="container">
+            <div class="video">
+                <video controls>
+                    <source src="" type="video/mp4">
+                    <source src="" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    <!-- End Work -->
+    <!-- Start Contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="header">
+                <h2>How It Works</h2>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div class="row g-3 mb-4">
+                        <div class="col-12 col-md-6">
+                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="btn">send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="header">
+                <h2>BitCYPO</h2>
+            </div>
+            <div class="row">
+                <div class="col-auto mb-5 links">
+                    <h2>contact us</h2>
+                    <ul>
+                        <li>Location</li>
+                        <li>Call +011234567890</li>
+                        <li>demo@gmail.com</li>
+                        <li></li>
+                    </ul>
+                    <ul>
+                        <li>Readable content of</li>
+                        <li>a page when looking</li>
+                        <li>at its layoutreadable </li>
+                        <li>content of a page</li>
+                    </ul>
+                </div>
+                <div class="col-auto mb-5 links">
+                    <h2>Useful Link</h2>
+                    <ul>
+                        <li>Location</li>
+                        <li>Call +011234567890</li>
+                        <li>demo@gmail.com</li>
+                        <li></li>
+                    </ul>
+                    <ul>
+                        <li>Readable content of</li>
+                        <li>a page when looking</li>
+                        <li>at its layoutreadable </li>
+                        <li>content of a page</li>
+                    </ul>
+                </div>
+                <div class="col-auto mb-5 links">
+                    <h2>Offices</h2>
+                    <ul>
+                        <li>Location</li>
+                        <li>Call +011234567890</li>
+                        <li>demo@gmail.com</li>
+                        <li></li>
+                    </ul>
+                    <ul>
+                        <li>Readable content of</li>
+                        <li>a page when looking</li>
+                        <li>at its layoutreadable </li>
+                        <li>content of a page</li>
+                    </ul>
+                </div>
+                <div class="col-auto mb-5 links">
+                    <h2>Newsletter</h2>
+                    <form>
+                        <div class="mb-3">
+                          <input type="password" class="form-control" placeholder="Enter Your Email" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                      </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="copyright">
+                    <h2>
+                        <i class="fa-solid fa-copyright"></i> 
+                        2022 all right reseved design by AhmedMagdy
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+
+    <!-- Files JS -->
+    <script src="layout/js/bootstrap.bundle.min.js"></script>
+    <script src="layout/js/jquery-3.6.1.min.js"></script>
+    <script src="layout/js/custom.js"></script>
+</body>
+</html>
