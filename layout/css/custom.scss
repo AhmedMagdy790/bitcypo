@@ -48,9 +48,9 @@ span
     border-radius: 0;
 }
 
-.btn.primary {
-    border: 2px solid #fff;
-    color: #fff;
+.btn.btn-custom-primary {
+    border: 2px solid #5e687d;
+    color: #5e687d !important;
     height: 67px;
     width: 200px;
 }
@@ -452,8 +452,8 @@ header {
             }
         }
         .btn {
-            border: 2px solid #fff;
-            color: #fff;
+            color: #fff !important;
+            border-color: #fff;
             font-weight: bold;
             border-radius: 30px;
             text-transform: uppercase;
